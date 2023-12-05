@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+
+<body>
+    <h2>Registration form</h2><hr>
+    <p>Fill the form with required information</p>
+
+    <form>
+        <label>First name: <br>
+
+            <select name="initail" id="initial">
+               
+                <option value="1">Mr</option>
+                <option value="2">Mrs</option>
+                <option value="3">Ms</option>
+                <option value="4">Er</option>
+            </select>
+        </label>
+        <label for="first-name"><input type="text" id="first-name" name="first name" placeholder="First name"></label><br>
+        <label for="last-name">Last name: <br><input type="text" id="last-name" name="last name" placeholder="Last name"></label><br><br>
+        <label for="nationality">Nationality:
+            <select name="" id="">
+                <option value="">Select</option>
+                <option value="1">INDIA</option>
+                <option value="2">NAPAL</option>
+                <option value="3">SRI LANKA</option>
+            </select>
+        </label><br><br>
+        <label>Gender:
+            <select name="gender" id="gender">
+                <option value="">select</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select><br><br>
+            <label for="date">Date of birth:<input name="date" type="date" id="date">
+            </label>
+
+
+        </label><br><br>
+        <label for="email">Email:<input name="email" type="email" id="email" placeholder="Enter you email"></label><br><br>
+
+        <label for="password">password:<input name="password" type="password" id="password" placeholder="New password"></label><br><br>
+        Language: <br>
+        <label for="language"><input type=
+            "checkbox">English </label>
+
+        <label for="language"><input type=
+            "checkbox">Hindi </label>
+        <label for="language"><input type=
+            "checkbox">German </label>
+        <label for="language"><input type=
+            "checkbox">Telugu </label><br><br>
+            <label for="bio">About yourself:<br>
+                <textarea name="bio" id="bio" cols="30" rows="3" placeholder="Write about yourself."></textarea>
+            </label><br>
+            <label for="">
+                <button>Save</button>
+                <button>Reset</button>
+            </label>
+
+    </form>
+
+
+</body>
+
+</html>
